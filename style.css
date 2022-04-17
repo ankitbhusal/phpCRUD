@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.heading{
+    display: grid;
+    place-items: center;
+    padding: 1rem 0;
+    color: rgb(54, 54, 54);
+    margin: 1rem 0;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.form{
+    display: flex;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    margin-top: .5rem;
+}
+.form-group label{
+    font-size: .7rem;
+    color: rgb(69, 69, 69);
+}
+
+.btn{
+    margin-top: .9rem;
+    background: rgb(69, 69, 69);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 10vw;
+    height: 30px;
+    margin-left: 1rem;
+}
+.input{
+    margin: 4px 0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+    border: 1px solid gray;
+}
+.table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 80vw;
+    margin-top: 2rem;
+    text-align: center;
+    table-layout: fixed;
+    
+}
+ .td{
+    border: 1px solid gray;
+    padding: .3rem 1rem;
+}
+.th{
+    border: 1px solid gray;
+    padding: .8rem 1rem;
+    background: rgb(69, 69, 69);
+    color: white;
+}
+
+
+tr:nth-child(even){
+    background: rgb(234, 234, 234);
+}
+
+
+.btn-update{
+    background: rgb(122, 119, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: .7rem;
+    border-radius: 3px;
+    padding: .3rem .9rem;
+    text-decoration: none;
+    margin-right: .2rem;
+    text-transform: uppercase;
+}
+.btn-delete{
+    background: rgb(255, 107, 107);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: .7rem;
+    border-radius: 3px;
+    padding: .3rem .9rem;
+    text-decoration: none;
+    margin-left: .2rem;
+    text-transform: uppercase;
+}
